@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "noImplicitAny": true,
+    "lib": ["es2023", "esnext.asynciterable"],
+    "module": "node16",
+    "target": "es2022",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node16",
+
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true
+  },
+  "include": ["src/**/*.ts"]
+}
